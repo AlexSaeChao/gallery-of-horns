@@ -73,3 +73,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [Jackson's Chameleon](https://unsplash.com/photos/nMJKAXHBLLI)
 [Great Horned Owl](https://unsplash.com/photos/BMO1SzQHWRs)
+
+
+### Time Estimates
+
+Number and name of feature: Feature #1: Display Images
+
+Estimate of time needed to complete: 1 Hour
+
+Start time: 1418
+
+Finish time: _____
+
+Actual time needed to complete: _____
