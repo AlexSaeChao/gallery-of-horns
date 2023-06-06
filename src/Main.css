@@ -4,12 +4,12 @@ main {
   justify-content: space-evenly;
 }
 
-article {
-  border: solid 2px black;
-  margin: 10px;
-}
-
 img {
   padding: 5px;
-  width: 25vw;
+  transition: 350ms; 
+  color: black;
+}
+
+img:hover {
+  filter: brightness(35%);
 }
