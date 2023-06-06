@@ -78,23 +78,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Time Estimates
 
 Number and name of feature: Feature #1: Display Images
-
 Estimate of time needed to complete: 1 Hour
-
 Start time: 1418
-
 Finish time: 1445
-
 Actual time needed to complete: 27 mins
 
-
 Number and name of feature: Feature #2: Allow Users to Favorite
-
 Estimate of time needed to complete: 1 Hour
-
 Start time: 1446
-
 Finish time: 1531
-
 Actual time needed to complete: 45 mins
 
+Number and name of feature: Feature #3: Bootstrap
+Estimate of time needed to complete: 1 Hour
+Start time: 1537
+Finish time: 1626
+Actual time needed to complete: 49 mins
