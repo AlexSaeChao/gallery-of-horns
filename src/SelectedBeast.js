@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 
 class SelectedBeast extends React.Component {
   render() {
-    console.log(this.props.selectedBeast)
     return (
       <Modal show={this.props.showModal} onHide={this.props.handleCloseModal}>
         <Modal.Header closeButton>
