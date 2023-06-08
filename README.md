@@ -99,4 +99,16 @@ Number and name of feature: Feature #4: Display Modal
 Estimate of time needed to complete: 1.5 Hour
 Start time: 1412
 Finish time: 1626
-Actual time needed to complete: 49 mins
+Actual time needed to complete: 2 Hours 14 mins
+
+Number and name of feature: Feature #5: Select Form
+Estimate of time needed to complete: 2 hours
+Start time: 1425
+Finish time: 1635
+Actual time needed to complete: 2 Hours 10 mins
+
+
+### References
+
+[Help with .sort() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+[React Bootstrap Forms Select](https://react-bootstrap.netlify.app/docs/forms/select)
