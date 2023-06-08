@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -8,7 +9,6 @@ class HornedBeast extends React.Component {
     this.state = {
       likes: 0
     }
-
   }
 
   handleLike = () => {
@@ -17,15 +17,25 @@ class HornedBeast extends React.Component {
     })
   }
 
+  handleClick = () => {
+    this.props.handleOpenModal(this.props.title)
+  }
+
   render() {
-    console.log(this.props);
+    // console.log(this.props.selectedBeast);
     return (
-      <Card style={{ width: '18rem' }}>
+      <Card className='main-cards' style={{ width: '15rem' }}>
         <Card.Title>{this.props.title}</Card.Title>
         <Card.Text>
           {this.state.likes} Likes
         </Card.Text>
-        <Card.Img onClick={this.handleLike} src={this.props.image_url} alt={this.props.alt} title={this.props.title} />
+        <Button onClick={this.handleLike}>Favorite </Button>{''}
+        <Card.Img className='main-image-cards'
+          onClick={this.handleClick}
+          src={this.props.image_url}
+          alt={this.props.alt}
+          title={this.props.title}
+        />
         <Card.Body>
           {this.props.alt}
         </Card.Body>

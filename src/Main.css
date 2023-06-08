@@ -4,12 +4,16 @@ main {
   justify-content: space-evenly;
 }
 
-img {
+.main-cards{
+  margin: 3px;
+}
+.main-image-cards {
   padding: 5px;
   transition: 350ms; 
   color: black;
 }
 
-img:hover {
+.main-image-cards:hover {
   filter: brightness(35%);
 }
+
