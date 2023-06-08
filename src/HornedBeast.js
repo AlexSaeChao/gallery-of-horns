@@ -22,7 +22,6 @@ class HornedBeast extends React.Component {
   }
 
   render() {
-    // console.log(this.props.selectedBeast);
     return (
       <Card className='main-cards' style={{ width: '15rem' }}>
         <Card.Title>{this.props.title}</Card.Title>
